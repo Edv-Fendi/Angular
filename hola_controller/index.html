@@ -11,8 +11,10 @@
 </head>
 
 <body ng-controller="FirstController">
-    <input type="text" ng-model="nuevoComentario.comentario"> <br>
-    <input type="text" ng-model="nuevoComentario.username"> 
+    
+    <input type="text" placeholder="Digite a mensagem" ng-model="nuevoComentario.comentario"> <br>
+    <input type="text" placeholder="Digite o Usuário" ng-model="nuevoComentario.username"> 
+    <br>
     <button ng-click="agregarComentario()">Agregar Comentario</button>
 
     <h3>Comentarios</h3>
